@@ -37,7 +37,7 @@
         - shacl_common_shapes.ttl
         - shacl_mdr-vocabularies.shape.ttl
         - shacl_distribution_shape.ttl
-        Asegúrese de que estén disponibles e importadas para una validación completa.
+        A
     """@es ;
     rdfs:comment """
         This file requires importing the following additional dependencies to work properly:
@@ -69,7 +69,7 @@ dcatapes:Dataset_Shape
         sh:severity sh:Violation ;
         foaf:page <https://datosgobes.github.io/DCAT-AP-ES/#Dataset.title> ;
         sh:message "El conjunto de datos debe contener al menos un dct:title."@es ;
-        sh:message "The dataset must contain at least one dct:title."@en ;
+        sh:message "The dataset mu:title."@en ;
     ], 
     [
         sh:path dct:title ;
@@ -87,7 +87,6 @@ dcatapes:Dataset_Shape
         sh:severity sh:Violation ;
         foaf:page <https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-02> ;
         sh:message "Más de un valor comparten la misma etiqueta de idioma. Ver: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-02"@es ;
-        sh:message "More than one value shares the same language tag. See: https://datosgobes.github.io/DCAT-AP-ES/convenciones/#convencion-02"@en ;
     ],
 
     # dct:description
