@@ -182,8 +182,7 @@ dcatapes:Dataset_Shape
     # dcat:theme
     [
         sh:path dcat:theme ;
-        sh:minCount 3 ;
-		sh:maxCount 4 ;
+        sh:minCount 1 ;
         sh:severity sh:Violation ;
         foaf:page <https://datosgobes.github.io/DCAT-AP-ES/#Dataset.theme> ;
         sh:message "El conjunto de datos debe contener al menos un dcat:theme."@es ;
